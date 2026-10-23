@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>NetScope.Core</RootNamespace>
+    <AssemblyName>NetScope.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Oui\oui.txt" LogicalName="NetScope.Core.oui.txt" />
+  </ItemGroup>
+
+</Project>
